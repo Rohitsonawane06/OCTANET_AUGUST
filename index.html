@@ -3,82 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Your Plots of House</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>caluclater</title>
 </head>
-<style>
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-div img{
-    width: 400px;
-    height: 300px;
-    border: 2px solid#ff3d0036;
-    border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px #00000042;
-    cursor: pointer;
-    margin: 10px;
-    transition: 400ms;
-}
-div img:hover{
-    filter: grayscale(1);
-    transform: scale(1.03);
-}
-</style>
 <body>
-    <header>
-        <h1 style="background-color: darkred;">Book Your Plots of House</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="plots.html">Plots</a></li>
-                <li><a href="contact.html">Booking</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <center><h2 style="color: rgb(15, 15, 15);">Welcome to Your Dream Plot</h2></marquee>
-            </center>
-        </section>
-    </main>
-
-    <footer style="color: blanchedalmond;background-color: crimson;">
-        <p>&copy; 2024 Book Your Plots of House. All rights reserved.</p>
-    </footer>
-    <div>
-        <div class="plot">
-            <img src="p1.jpg"  >
+    <h1 style="color:darkkhaki;"><marquee behavior="alternative" direction="left
+        ">Desing By Rohit Sonawane</marquee> </h1>
+    <div class="caluclater">
+        <input type=" text" placeholder="0" id="inputBox">
+        <div>
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
         </div>
-        <div class="plot">
-            <img src="p2.jpg" alt="Plot 2">
-          
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
         </div>
-        <div class="plot">
-            <img src="p3.jpg" alt="Plot 2">
-          
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
         </div>
-        <div class="plot">
-            <img src="p4.jpg" alt="Plot 2">
-          
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
         </div>
-        <div class="plot">
-            <img src="p5.jpg" alt="Plot 2">
-          
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalBtn">=</button>
         </div>
-        <div class="plot">
-            <img src="p6.jpg" alt="Plot 2">
-          
-        </div>
-   <footer>
-    <h1>&copy;<marquee behavior="" direction="legt to rights">BOOK YOUR PLOTS NOW</marquee></h1>
-   </footer>
-  
-</u>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
